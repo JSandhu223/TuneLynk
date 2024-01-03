@@ -3,7 +3,7 @@ import './App.css';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <a className="navbar-brand" href="#">TuneLynk</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -15,6 +15,9 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">Library</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Explore</a>
           </li>
         </ul>
         <form className="form">
