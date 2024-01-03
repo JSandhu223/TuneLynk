@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="#">TuneLynk</a>
@@ -29,10 +29,15 @@ function App() {
             <a className="nav-link" href="#">Create Account</a>
           </li>
         </ul>
-        
       </div>
     </nav>
   );
 }
 
-export default App;
+function App() {
+  return (
+    <Navbar />
+  );
+}
+
+export default Navbar;
