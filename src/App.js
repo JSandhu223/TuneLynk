@@ -1,4 +1,5 @@
 import './App.css';
+import Placeholder from './assets/images/Placeholder_EighthNote.png';
 
 function Navbar() {
   return (
@@ -40,7 +41,7 @@ function HomePage() {
   return (
     <div className="container">
       <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
+        <img src={Placeholder} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Song title</h5>
           <p className="card-text">Category name.</p>
