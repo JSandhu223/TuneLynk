@@ -55,3 +55,7 @@ form {
   display: flex;
   flex-direction: row;
 }
+
+.card {
+  width: 18rem;
+}

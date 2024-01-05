@@ -39,7 +39,14 @@ function Navbar() {
 function HomePage() {
   return (
     <div className="container">
-      <h1>Hello</h1>
+      <div className="card">
+        <img src="..." className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">Song title</h5>
+          <p className="card-text">Category name.</p>
+          <a href="#" className="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     </div>
   );
 }
