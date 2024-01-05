@@ -46,7 +46,7 @@ function HomePage() {
         <div className="card-body">
           <h5 className="card-title">Song title</h5>
           <p className="card-text">Category name.</p>
-          <a href="#" className="btn btn-primary">Go somewhere</a>
+          <a href="/#" className="btn btn-primary">Go somewhere</a>
         </div>
       </div>
     </div>
