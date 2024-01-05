@@ -39,9 +39,10 @@ function Navbar() {
 
 function HomePage() {
   return (
-    <div className="container">
+    <div className="container pt-3">
+      <h1>Trending</h1>
       <div className="card">
-        <img src={Placeholder} className="card-img-top" alt="..." />
+        <img src={Placeholder} className="card-img-top rounded mx-auto d-block w-100 placeholder-image" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Song title</h5>
           <p className="card-text">Category name.</p>
